@@ -22,18 +22,18 @@
                 <th>Building Name</th>
                 <th></th>
               </tr>
-              <tr ng-repeat="listing in listings | filter: query" ng-click="showDetails($index)">
+              <tr ng-repeat="listing in listings | orderBy: 'code' | filter: query" ng-click="showDetails(listings.indexOf(listing))">
                 <td>{{listing.code}}</td>
                 <td>{{listing.name}}</td>
-                <td ng-click="deleteListing($index)"><span style="color: red;" class="glyphicon glyphicon-remove"></span></td>
+                <td ng-click="deleteListing(listings.indexOf(listing))"><span style="color: red;" class="glyphicon glyphicon-trash"></span></td>
               </tr>
             </table>
           </div>
           <form novalidate class="simple-form">
             <h2>Add New Listing</h2>
-            Code: <input type="text" ng-model="newListing.code" /><br />
-            Name: <input type="text" ng-model="newListing.name" /><br />
-            Address: <input type="text" ng-model="newListing.address" /><br />
+            Code: <input type="text" ng-model="newListing.code" class="appearance"/><br />
+            Name: <input type="text" ng-model="newListing.name" class="appearance"/><br />
+            Address: <input type="text" ng-model="newListing.address" class="appearance"/><br />
             <button class="btn btn-primary" ng-click="addListing()">Add Listing</button>
           </form>
         </div>

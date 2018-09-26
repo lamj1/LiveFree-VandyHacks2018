@@ -6,3 +6,18 @@
   max-height: 400px;
   overflow: auto;
 }
+
+.appearance {
+  border-radius: 3px;
+}
+.appearance:focus {
+  border: 3px solid rgb(236, 78, 78);
+}
+
+body {
+  background-color: lightgray;
+  background-image: url("gator.png");
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
