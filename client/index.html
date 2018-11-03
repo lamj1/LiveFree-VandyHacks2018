@@ -6,11 +6,22 @@
     <title>Mental Break</title>
   </head>
   <body ng-app="directoryApp">
+
+    <div id="menu">
+        <ul>
+          <li><a href="#page1">Information</a></li>
+          <li><a href="#page2">Assessment</a></li>
+          <li><a href="#page3">Events</a></li>
+          <li><a href="#page4">Resources</a></li>
+        </ul>
+    </div>
+    
     <div class="container">
       <div class="row">
-        <h1>Mental Break</h1>
+
+        <h1 class="title">Mental Break</h1>
       </div>
-      <div id="page1">
+      <div id="page1" padding-top:50px>
         <a id="info" class="smooth"></a>
           Information page content goes here.
       </div>
@@ -32,7 +43,21 @@
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
-    <script>
+    
+    <!--<script>
+        $(document).ready(function (){
+            $("#click").click(function (){
+                $('html, body').animate({
+                    scrollTop: $('#' + this.id).offset(40).top
+                }, 2000);
+            });
+        });
+    </script>-->
+    
+    
+    
+    
+    <!-- <script>
     $('.smooth').on('click', function() {
         $.smoothScroll({
             scrollElement: $('body'),
@@ -40,7 +65,7 @@
         });
         
         return false;
-    });
+    }); -->
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
