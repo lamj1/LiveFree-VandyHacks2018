@@ -14,9 +14,57 @@
   border: 3px solid rgb(236, 78, 78);
 }
 
+#page1 {
+  height: 1000px;
+  border: 1px solid black; 
+}
+#page2 {
+  height: 1000px;
+  border: 1px solid black; 
+}
+#page3 {
+  height: 1000px;
+  border: 1px solid black; 
+}
+#page4 {
+  height: 1000px;
+  border: 1px solid black; 
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+  
+}
+
+.menu li {
+  float: left;
+}
+
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #666;
+}
+
+/* Change the link color to #111 (black) on hover */
+.menu li a:hover {
+  background-color: #111;
+}
+
 body {
   background-color: lightgray;
-  background-image: url("gator.png");
   background-size: 200px;
   background-repeat: no-repeat;
   background-position: right bottom;
