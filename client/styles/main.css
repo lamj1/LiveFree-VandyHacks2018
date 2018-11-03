@@ -14,9 +14,25 @@
   border: 3px solid rgb(236, 78, 78);
 }
 
+#page1 {
+  height: 1000px;
+  border: 1px solid black; 
+}
+#page2 {
+  height: 1000px;
+  border: 1px solid black; 
+}
+#page3 {
+  height: 1000px;
+  border: 1px solid black; 
+}
+#page4 {
+  height: 1000px;
+  border: 1px solid black; 
+}
+
 body {
   background-color: lightgray;
-  background-image: url("gator.png");
   background-size: 200px;
   background-repeat: no-repeat;
   background-position: right bottom;
