@@ -13,43 +13,51 @@
 .appearance:focus {
   border: 3px solid rgb(236, 78, 78);
 }
-
+/*Changes from maria
+- height of all boxes to 500px 
+- divided sections into 3.. or 2
+*/
 /*Styling for each page*/
 #page1 {
-  height: 1000px;
-  /*border: 1px solid black;*/  
-  background-color:#cce7ff;
+    height: 500px;
+    /* border: 1px solid black;*/
+    background: linear-gradient(to bottom, white 0%, #ccffee 100%);
+    box-shadow: inset 50px 0px 50px -40px white, inset -50px 0px 50px -40px white;
 }
+
 #page2 {
-  height: 1000px;
-  /*border: 1px solid black;*/ 
-  background-color:#ccffee;
+    height: 500px;
+    /*border: 1px solid black;*/
+    background: linear-gradient(to bottom, #ccffee 0%, #ffffe6 100%);
+    box-shadow: inset 50px 0px 50px -40px white, inset -50px 0px 50px -40px white;
 }
 #page3 {
-  height: 1000px;
-  /*border: 1px solid black;*/ 
-  background-color:#ffffe6;
+    height: 500px;
+    /*border: 1px solid black;*/
+    background: linear-gradient(to bottom, #ffffe6 0%, #FAEBD7 100%);
+    box-shadow: inset 50px 0px 50px -40px white, inset -50px 0px 50px -40px white;
 }
 #page4 {
-  height: 1000px;
-  /*border: 1px solid black;*/ 
-  background-color: #FAEBD7;
+    height: 500px;
+    /*border: 1px solid black;*/
+    background: linear-gradient(to bottom, #FAEBD7 0%, #ffffff 100%);
+    box-shadow: inset 50px 0px 50px -40px white, inset -50px 0px 50px -40px white;
 }
 
 
 /*Styling for menu bar*/
 .menu ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  border: 1px solid #e7e7e7;
-  background-color: #f3f3f3;
-  
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    z-index: 2; /*to make menu bar appear in front of divs */
 }
 
 .menu li {
@@ -75,8 +83,10 @@
 
 html,
 body {
-  /*background-color: rgb(255, 255, 255);*/
-  background: rgb(206, 206, 206);
-  background-size: 200px;
-  overflow-x: hidden;
+    /*background-color: black; */
+    background-image: url("vandy.gif");
+    background-repeat: repeat;
+    background-color: #cccccc;
+    background-size: 500px;
+    overflow-x: hidden;
 }
