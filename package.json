@@ -7,6 +7,10 @@
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.14.1",
+    "chat-engine": "^0.9.19",
+    "chat-engine-online-user-search": "0.0.10",
+    "chat-engine-random-username": "0.0.5",
+    "chat-engine-typing-indicator": "0.0.9",
     "express": "^4.13.3",
     "heroku": "^7.16.0",
     "jquery-smooth-scroll": "^2.2.0",
