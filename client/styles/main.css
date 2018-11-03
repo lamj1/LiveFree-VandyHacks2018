@@ -7,46 +7,59 @@
   overflow: auto;
 }
 
-.appearance {
-  border-radius: 3px;
-}
-.appearance:focus {
-  border: 3px solid rgb(236, 78, 78);
-}
 /*Changes from maria
 - height of all boxes to 500px 
 - divided sections into 3.. or 2
 */
 /*Styling for each page*/
 #page1 {
-    height: 500px;
+    height: 1000px;
     padding-top:50px;
+    border: none;
     /* border: 1px solid black;*/
     background: linear-gradient(to bottom, white 0%, #ccffee 100%);
     box-shadow: inset 50px 0px 50px -40px white, inset -50px 0px 50px -40px white;
 }
 
 #page2 {
-    height: 500px;
+    height: 1000px;
     padding-top:50px;
     /*border: 1px solid black;*/
     background: linear-gradient(to bottom, #ccffee 0%, #ffffe6 100%);
     box-shadow: inset 50px 0px 50px -40px white, inset -50px 0px 50px -40px white;
 }
 #page3 {
-    height: 500px;
+    height: 1000px;
     padding-top:50px;
     /*border: 1px solid black;*/
     background: linear-gradient(to bottom, #ffffe6 0%, #FAEBD7 100%);
     box-shadow: inset 50px 0px 50px -40px white, inset -50px 0px 50px -40px white;
 }
 #page4 {
-    height: 500px;
+    height: 1000px;
     padding-top:50px;
     /*border: 1px solid black;*/
     background: linear-gradient(to bottom, #FAEBD7 0%, #ffffff 100%);
     box-shadow: inset 50px 0px 50px -40px white, inset -50px 0px 50px -40px white;
 }
+
+#page5 {
+  height: 1000px;
+  padding-top:50px;
+  /*border: 1px solid black;*/
+  background: linear-gradient(to bottom, #FAEBD7 0%, #ffffff 100%);
+  box-shadow: inset 50px 0px 50px -40px white, inset -50px 0px 50px -40px white;
+}
+
+#page5 {
+  height: 1000px;
+  padding-top:50px;
+  /*border: 1px solid black;*/
+  background: linear-gradient(to bottom, #FAEBD7 0%, #ffffff 100%);
+  box-shadow: inset 50px 0px 50px -40px white, inset -50px 0px 50px -40px white;
+}
+
+
 
 /*
 //Styling for menu bar/
@@ -127,28 +140,6 @@ body {
   color: #fff !important;
   text-decoration: none;
   vertical-align: center !important;
-}
-
-#page1 {
-  border: 1px solid black;
-  height: 500px;
-  padding-top:50px;
-}
-
-#page2 {
-  border: 1px solid black;
-  height: 500px;
-  padding-top:50px;
-}
-#page3 {
-  border: 1px solid black;
-  height: 500px;
-  padding-top:50px;
-}
-#page4 {
-  height: 500px;
-  border: 1px solid black; 
-  padding-top:50px;
 }
 
 /*
