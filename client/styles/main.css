@@ -36,29 +36,6 @@
   background-color: #FAEBD7;
 }
 
-.chat-box{
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
-.box{
-  transition: height 1s ease-out;
-  width: 300px;
-  height: 0px;
-  background: white;
-  z-index: 9999;
-}
-.open:hover>.box{
-height:400px;
-    transition: height 1s ease-out;
-}
-.open {
-  text-align: center;
-  font-size: 20px;
-  border: 2px solid #3F51B5;
-  background: #cce7ff;
-  color: #eaeaea;
-}
 
 /*Styling for menu bar*/
 .menu ul {
