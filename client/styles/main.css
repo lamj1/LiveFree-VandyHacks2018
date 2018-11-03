@@ -20,6 +20,7 @@
 /*Styling for each page*/
 #page1 {
     height: 500px;
+    padding-top:50px;
     /* border: 1px solid black;*/
     background: linear-gradient(to bottom, white 0%, #ccffee 100%);
     box-shadow: inset 50px 0px 50px -40px white, inset -50px 0px 50px -40px white;
@@ -27,25 +28,28 @@
 
 #page2 {
     height: 500px;
+    padding-top:50px;
     /*border: 1px solid black;*/
     background: linear-gradient(to bottom, #ccffee 0%, #ffffe6 100%);
     box-shadow: inset 50px 0px 50px -40px white, inset -50px 0px 50px -40px white;
 }
 #page3 {
     height: 500px;
+    padding-top:50px;
     /*border: 1px solid black;*/
     background: linear-gradient(to bottom, #ffffe6 0%, #FAEBD7 100%);
     box-shadow: inset 50px 0px 50px -40px white, inset -50px 0px 50px -40px white;
 }
 #page4 {
     height: 500px;
+    padding-top:50px;
     /*border: 1px solid black;*/
     background: linear-gradient(to bottom, #FAEBD7 0%, #ffffff 100%);
     box-shadow: inset 50px 0px 50px -40px white, inset -50px 0px 50px -40px white;
 }
 
-
-/*Styling for menu bar*/
+/*
+//Styling for menu bar/
 .menu ul {
     list-style-type: none;
     margin: 0;
@@ -57,7 +61,7 @@
     width: 100%;
     border: 1px solid #e7e7e7;
     background-color: #f3f3f3;
-    z-index: 2; /*to make menu bar appear in front of divs */
+    z-index: 2; /*to make menu bar appear in front of divs /
 }
 
 .menu li {
@@ -73,7 +77,7 @@
   color: #666;
 }
 
-/* Change the link color to #111 (black) on hover */
+/* Change the link color to #111 (black) on hover /
 .menu li a:hover {
   background-color: #111;
 }
@@ -83,10 +87,82 @@
 
 html,
 body {
-    /*background-color: black; */
+  scroll-behavior: smooth;
+  scroll-snap-type: proximity;  
+  /*background-color: black; */
     background-image: url("vandy.gif");
     background-repeat: repeat;
     background-color: #cccccc;
     background-size: 500px;
     overflow-x: hidden;
 }
+             /* Kevin  */
+#menu {
+  text-align: center;
+  
+  width: 100%;
+  background: lightcoral;
+  text-align: center;
+  position: fixed;
+  top: 0px;
+  z-index: 9990;
+  float: left;
+  padding: 10px 0;
+
+}
+#menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+#menu ul li {
+  display: inline;
+  padding: 0 30px 0 0;
+}
+#menu ul li a {
+  font-size: 1.6em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff !important;
+  text-decoration: none;
+  vertical-align: center !important;
+}
+
+#page1 {
+  border: 1px solid black;
+  height: 500px;
+  padding-top:50px;
+}
+
+#page2 {
+  border: 1px solid black;
+  height: 500px;
+  padding-top:50px;
+}
+#page3 {
+  border: 1px solid black;
+  height: 500px;
+  padding-top:50px;
+}
+#page4 {
+  height: 500px;
+  border: 1px solid black; 
+  padding-top:50px;
+}
+
+/*
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: proximity;
+}
+
+
+body {
+  padding-top: 40px;
+  background-color: lightgray;
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+*/
