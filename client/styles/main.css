@@ -14,23 +14,53 @@
   border: 3px solid rgb(236, 78, 78);
 }
 
+/*Styling for each page*/
 #page1 {
   height: 1000px;
-  border: 1px solid black; 
+  /*border: 1px solid black;*/  
+  background-color:#cce7ff;
 }
 #page2 {
   height: 1000px;
-  border: 1px solid black; 
+  /*border: 1px solid black;*/ 
+  background-color:#ccffee;
 }
 #page3 {
   height: 1000px;
-  border: 1px solid black; 
+  /*border: 1px solid black;*/ 
+  background-color:#ffffe6;
 }
 #page4 {
   height: 1000px;
-  border: 1px solid black; 
+  /*border: 1px solid black;*/ 
+  background-color: #FAEBD7;
 }
 
+.chat-box{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.box{
+  transition: height 1s ease-out;
+  width: 300px;
+  height: 0px;
+  background: white;
+  z-index: 9999;
+}
+.open:hover>.box{
+height:400px;
+    transition: height 1s ease-out;
+}
+.open {
+  text-align: center;
+  font-size: 20px;
+  border: 2px solid #3F51B5;
+  background: #cce7ff;
+  color: #eaeaea;
+}
+
+/*Styling for menu bar*/
 .menu ul {
   list-style-type: none;
   margin: 0;
@@ -63,9 +93,13 @@
   background-color: #111;
 }
 
+/*Styling for chat box*/
+
+
+html,
 body {
-  background-color: lightgray;
+  /*background-color: rgb(255, 255, 255);*/
+  background: rgb(206, 206, 206);
   background-size: 200px;
-  background-repeat: no-repeat;
-  background-position: right bottom;
+  overflow-x: hidden;
 }
