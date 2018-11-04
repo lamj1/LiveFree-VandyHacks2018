@@ -157,6 +157,17 @@ html {
 }
 
 
+#allEvents{
+    background-color: white;
+    width: 400px;
+    height: 2000 px;
+    border: 5px solid beige;
+    float: right;
+    padding: 25px;
+    margin-left:75%;
+    margin-right:-75%;
+    padding: right;
+}
 
 
 .video{
@@ -213,6 +224,7 @@ body {
 }
 
 #contact {
+  float:left;
   background: #F9F9F9;
   padding: 25px;
   margin-left:-75%;
