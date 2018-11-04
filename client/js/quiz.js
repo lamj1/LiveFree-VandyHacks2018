@@ -64,47 +64,48 @@ function results() {
     if (anxiety < 4) {
         document.getElementById("anxiety").textContent = "Low Chance of Anxiety";
     } else if(anxiety < 8 && anxiety >= 4){
-        document.getElementById("anxiety").textContent = "Showing Symptons of Anxiety";
+        document.getElementById("anxiety").textContent = "Showing Symptons of Anxiety: Please Talk to Your Doctor if Problems Persist";
     } else if(anxiety < 12 && anxiety >=8){
-		document.getElementById("anxiety").textContent = "Showing Symptons of Anxiety";
+		document.getElementById("anxiety").textContent = "Showing Symptons of Anxiety: Please Talk to Your Doctor if Problems Persist";
 	}else{
-		document.getElementById("anxiety").textContent = "High Chance of Anxiety";
+		document.getElementById("anxiety").textContent = "High Chance of Anxiety: Seek Proffessional Help";
 	}
 	
 	//PTSD
 	if (ptsd < 4) {
         document.getElementById("ptsd").textContent = "Low Chance of PTSD";
     } else if(ptsd < 8 && ptsd >= 4){
-        document.getElementById("ptsd").textContent = "Showing Symptons of PTSD";
+        document.getElementById("ptsd").textContent = "Showing Symptons of PTSD: Visit the Resources Tab and Talk to a Doctor for Help";
     } else if(ptsd < 12 && ptsd >=8){
-		document.getElementById("ptsd").textContent = "Showing Symptons of PTSD";
+		document.getElementById("ptsd").textContent = "Showing Symptons of PTSD: Visit the Resources Tab and Talk to a Doctor for Help";
 	}else{
-		document.getElementById("ptsd").textContent = "High Chance of PTSD";
+		document.getElementById("ptsd").textContent = "Many Signs of PTSD";
 	}
 	
 	//Depression
 	if (depression < 4) {
-        document.getElementById("depression").textContent = "Low Chance of Depression";
+        document.getElementById("depression").textContent = "Few Signs of Depression";
     } else if(depression < 8 && depression >= 4){
-        document.getElementById("depression").textContent = "Showing Symptons of Depression";
+        document.getElementById("depression").textContent = "Showing Symptons of Depression: Visit the Resources Tab and Talk to a Doctor for Help";
     } else if(depression < 12 && depression >=8){
-		document.getElementById("depression").textContent = "Showing Symptons of Depression";
+		document.getElementById("depression").textContent = "Showing Symptons of Depression: Visit the Resources Tab and Talk to a Doctor for Help";
 	}else{
-		document.getElementById("depression").textContent = "High Chance of Depression";
+		document.getElementById("depression").textContent = "Many Signs of Depression: Talk to Family/Friends about seeking help. If Urgent Call the National Suicide Prevention Hotline (1-800-273-8255)";
 	}
 	
 	//BiPolar
 	if (bipolar < 4) {
-        document.getElementById("bipolar").textContent = "Low Chance of Bi-Polar";
+        document.getElementById("bipolar").textContent = "Few to No Signs of Bipolar Disorder";
     } else if(bipolar < 8 && bipolar >= 4){
-        document.getElementById("bipolar").textContent = "Showing Symptons of Bi-Polar";
+        document.getElementById("bipolar").textContent = "Showing Symptons of Bipolar Disorder";
     } else if(bipolar < 12 && bipolar >=8){
-		document.getElementById("bipolar").textContent = "Showing Symptons of Bi-Polar";
+		document.getElementById("bipolar").textContent = "Showing Symptons of Bipolar Disorder";
 	}else{
-		document.getElementById("bipolar").textContent = "High Chance of Bi-Polar";
+		document.getElementById("bipolar").textContent = "Many Signs of Bipolar Disorder: Talk to a Doctor and Visit the Resources Tab for More Information";
 	}
 	
 	if (substance < 4) {
+<<<<<<< HEAD
         document.getElementById("substance").textContent = "Low Chance of Substance Abuse";
     } else if(substance < 8 && substance >= 4){
         document.getElementById("substance").textContent = "Showing Symptons of Substance Abuse";
@@ -112,5 +113,14 @@ function results() {
 		document.getElementById("substance").textContent = "Showing Symptons of Substance Abuse";
 	}else{
 		document.getElementById("substance").textContent = "High Chance of Substance Abuse";
+=======
+        document.getElementById("substance").textContent = "Low Chance of Substance Abuse: Visit the Resources Tab to Find a Professional";
+    } else if(substance < 12 && substance >= 4){
+        document.getElementById("substance").textContent = "Showing Symptons of Substance Abuse: Visit the Resources Tab to Find a Professional";
+    } else if(substance < 18 && substance >=12){
+		document.getElementById("substance").textContent = "Showing Moderate Amount of Symptons of Substance Abuse: Visit the Resources Tab to Find a Professional";
+	}else{
+		document.getElementById("substance").textContent = "Many Symptoms of Substance Abuse: Please Reachout to a Trusted Person for Help. Visit the Resources Tab if in Need";
+>>>>>>> a2a47ee7945ac4205fdf547ebcc698ad41e92e3e
 	}
 }
