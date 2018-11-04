@@ -105,12 +105,12 @@ function results() {
 	}
 	
 	if (substance < 4) {
-        document.getElementById("substance").textContent = "Low Chance of Substance";
+        document.getElementById("substance").textContent = "Low Chance of Substance Abuse";
     } else if(substance < 8 && substance >= 4){
-        document.getElementById("substance").textContent = "Showing Symptons of Substance";
+        document.getElementById("substance").textContent = "Showing Symptons of Substance Abuse";
     } else if(substance < 12 && substance >=8){
-		document.getElementById("substance").textContent = "Showing Symptons of Substance";
+		document.getElementById("substance").textContent = "Showing Symptons of Substance Abuse";
 	}else{
-		document.getElementById("substance").textContent = "High Chance of Substance";
+		document.getElementById("substance").textContent = "High Chance of Substance Abuse";
 	}
 }
