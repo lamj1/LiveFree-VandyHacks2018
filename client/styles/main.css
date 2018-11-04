@@ -13,13 +13,18 @@ html {
 */
 
 /*Styling for each page*/
-#page1 {
+#page1 { /*Information*/
     height: 500px;
     padding-top: 3%;
     border: none;
     /* border: 1px solid black;*/
-    background: linear-gradient(to bottom, #e7f5fe 0%, #e7f5fe 100%);
-    box-shadow: inset 50px 50px 50px -40px white, inset -50px 50px 50px -40px white;
+    background-image: url("info.gif");
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-size: 1400px;
+    
 }
 /*Color sequence
 #e7f5fe
@@ -48,12 +53,21 @@ html {
     background-image: url("healthy.gif"),url("healthy2.GIF");
     background-repeat: no-repeat, repeat;
     border-radius: 25px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     /*box-shadow: inset 50px 0px 50px -40px white, inset -50px 0px 50px -40px white;*/
-    background-size: 780px;
+    background-size: 700px;
 }
-
+#p4info {
+    text-align: left;
+    margin-left: 350px;
+    margin-right: 100px;
+}
+#p4subh {
+    padding: 0;
+    margin: 0;
+    line-height: 5px;
+}
 #page5 {
     height: 500px;
     padding-top: 3%;
@@ -78,18 +92,22 @@ html {
 
 
 .video{
-    padding-top: 10%;
+    padding-top: 20%;
     position: absolute;
-    margin: center;
+    margin-left: 250px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: block;
+<<<<<<< HEAD
+    width: 10%;
+=======
 }
 
 iframe {
   max-width:  100% !important;
   max-height: 100% !important;
+>>>>>>> 7d8437a11ccb1bbdc214e1901b47581751085c9c
 }
 
 #map{
