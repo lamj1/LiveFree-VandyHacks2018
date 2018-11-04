@@ -2,9 +2,9 @@
   margin: 15px 10px;
 }
 
-.tableWrapper {
-  max-height: 400px;
-  overflow: auto;
+
+html {
+  overflow-y: visible;
 }
 
 /*Changes from maria
@@ -122,7 +122,7 @@ body {
     background-repeat: repeat;
     background-color: #cccccc;
     background-size: 500px;
-    overflow-x: hidden;
+    overflow-x: visible;
 }
              /* Kevin  */
 #menu {
