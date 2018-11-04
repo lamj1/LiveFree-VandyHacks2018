@@ -31,29 +31,35 @@ html {
     height: 500px;
     padding-top: 3%;
     /*border: 1px solid black;*/
-    background: linear-gradient(to bottom, #e7f5fe 0%, #ccffee 100%);
+    background: linear-gradient(to bottom, #e7f5fe 0%, #eafaea 100%);
     box-shadow: inset 50px 0px 50px -40px white, inset -50px 0px 50px -40px white;
 }
 #page3 {
     height: 500px;
     padding-top: 3%;
     /*border: 1px solid black;*/
-    background: linear-gradient(to bottom, #ccffee 0%, #ffffe6 100%);
+    background: linear-gradient(to bottom, #eafaea 0%, #ffffe6 100%);
     box-shadow: inset 50px 0px 50px -40px white, inset -50px 0px 50px -40px white;
 }
-#page4 {
+#page4 { /* health*/
     height: 500px;
     padding-top: 3%;
     /*border: 1px solid black;*/
-    background: linear-gradient(to bottom, #ffffe6 0%, #ccffee 100%);
-    box-shadow: inset 50px 0px 50px -40px white, inset -50px 0px 50px -40px white;
+    background-image: url("healthy.gif"),url("healthy2.GIF");
+    background-repeat: no-repeat, repeat;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /*box-shadow: inset 50px 0px 50px -40px white, inset -50px 0px 50px -40px white;*/
+    background-size: 780px;
 }
 
 #page5 {
     height: 500px;
     padding-top: 3%;
     /*border: 1px solid black;*/
-    background: linear-gradient(to bottom, #ccffee 0%, #e7f5fe 100%);
+    background: linear-gradient(to bottom, #eafaea 0%, #e7f5fe 100%);
+
     box-shadow: inset 50px 0px 50px -40px white, inset -50px 0px 50px -40px white;
 }
 
