@@ -99,15 +99,11 @@ html {
     left: 50%;
     transform: translate(-50%, -50%);
     display: block;
-<<<<<<< HEAD
-    width: 10%;
-=======
 }
 
 iframe {
   max-width:  100% !important;
   max-height: 100% !important;
->>>>>>> 7d8437a11ccb1bbdc214e1901b47581751085c9c
 }
 
 #map{
@@ -210,3 +206,16 @@ body {
   background-position: right bottom;
 }
 */
+
+.tooltip.tooltip-scroll ::-webkit-scrollbar {
+  background-color: #F1F1F1;
+}
+
+.tooltip.tooltip-scroll ::-webkit-scrollbar-thumb {
+  background-color: #C1C1C1;
+  border: 1px solid #F1F1F1;
+}
+
+/* optional */
+.tooltip.tooltip-scroll ::-webkit-scrollbar-button {
+  background-color: #F1F1F1;
