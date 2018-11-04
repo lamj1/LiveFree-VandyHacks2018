@@ -29,6 +29,7 @@ function outputJSON(jsonResponse){
     for (var i = 0; i < jsonResponse.events.length; i++){
         object = jsonResponse.events[i];
         name = object.name.text;
-        
+        description = object.description.text;
+        logo = object.logo.original.url;
     }
 }
