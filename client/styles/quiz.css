@@ -2,6 +2,8 @@
   list-style: none;
 }
 
+
+
 .list-reset{
     list-style:none;
     padding-left:0;
@@ -11,10 +13,24 @@
 
 /* Scss Document */
 
+.tall {
+    height: 2000px;
+    padding: 10px;
+}
 
 /* end slideshow */
 
-
+html,
+body {
+  scroll-behavior: smooth;
+  scroll-snap-type: proximity;  
+  /*background-color: black; */
+    background-image: url("vandy.gif");
+    background-repeat: repeat;
+    background-color: #cccccc;
+    background-size: 500px;
+    overflow-x: visible;
+}
 
 .m0{ margin:0 }
 
@@ -59,6 +75,26 @@
   }
 
 
+  .btn-red{
+    background:rgb(196, 11, 11);
+    color:#FFF;
+  }
+
+
+.btn-red:hover{
+    background:rgb(228, 157, 157);
+    color:#FFF;
+  }
+
+
+.btn-red:active,
+  .btn-red:focus{
+    background:#ae4c4c;
+    box-shadow:none;
+    color:#FFF;
+  }
+
+
   
   .btn-green{
     background:#6ABF79;
@@ -96,6 +132,7 @@
 
 
   .btn-large{
+    font-style: bold;
     min-width:11.5625rem;
     border-radius:1.375rem;
     font-size:1rem;

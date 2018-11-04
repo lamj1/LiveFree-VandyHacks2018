@@ -1,8 +1,5 @@
 /* Scss Document */
-.orange-fade {
-    background: #ff910e;
-    background: linear-gradient(135deg,#ff910e 0,#ffa841 100%);
-}
+
 .pos-r {
     position: relative!important;
 }
@@ -22,16 +19,16 @@
     align-items: center;
 }
 .big-separator {
-  width: 100%;
+  width: 80%;
   height: 5px;
   margin: 1.2em auto 1em;
-  background: #ffc53a;
+  background: #ADD8E6;
 }
 .separator {
     width: 30%;
     height: 3px;
     margin: 1.2em auto 1em;
-    background: #ffc53a;
+    background: #ADD8E6;
 }
 .one-slide {
   border-radius: 3px;
@@ -60,9 +57,21 @@
 .next {
   right: -1.875rem;
 }
+.arrow {
+  color: #ADD8E6;
+  font-size: 10rem;
+}
+.slick-slide {
+  height:100%;
+}
+
+.slick-slide img {
+  height:80%;
+}
+
 .testimonial-carousel { 
   &.slick-initialized { 
-    display: block; 
+    display: block;
   }
  .message {
     width: 100%;
