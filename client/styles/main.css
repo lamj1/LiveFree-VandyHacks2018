@@ -2,23 +2,24 @@
   margin: 15px 10px;
 }
 
+/*
 .tableWrapper {
   max-height: 400px;
   overflow: auto;
-}
 
-/*Changes from maria
-- height of all boxes to 500px 
-- divided sections into 3.. or 2
+html {
+  overflow-y: visible;
+}
 */
+
 /*Styling for each page*/
 #page1 {
-    height: 1000px;
-    padding-top: 50px;
+    height: 500px;
+    padding-top: 3%;
     border: none;
     /* border: 1px solid black;*/
-    background: linear-gradient(to bottom, white 0%, #e7f5fe 100%);
-    box-shadow: inset 50px 0px 50px -40px white, inset -50px 0px 50px -40px white;
+    background: linear-gradient(to bottom, #e7f5fe 0%, #e7f5fe 100%);
+    box-shadow: inset 50px 50px 50px -40px white, inset -50px 50px 50px -40px white;
 }
 /*Color sequence
 #e7f5fe
@@ -27,33 +28,33 @@
 #FAEBD7
 #ffffff*/
 #page2 {
-    height: 1000px;
-    padding-top: 50px;
+    height: 500px;
+    padding-top: 3%;
     /*border: 1px solid black;*/
     background: linear-gradient(to bottom, #e7f5fe 0%, #ccffee 100%);
     box-shadow: inset 50px 0px 50px -40px white, inset -50px 0px 50px -40px white;
 }
 #page3 {
-    height: 1000px;
-    padding-top: 50px;
+    height: 500px;
+    padding-top: 3%;
     /*border: 1px solid black;*/
     background: linear-gradient(to bottom, #ccffee 0%, #ffffe6 100%);
     box-shadow: inset 50px 0px 50px -40px white, inset -50px 0px 50px -40px white;
 }
 #page4 {
-    height: 1000px;
-    padding-top: 50px;
+    height: 500px;
+    padding-top: 3%;
     /*border: 1px solid black;*/
-    background: linear-gradient(to bottom, #ffffe6 0%, #FAEBD7 100%);
+    background: linear-gradient(to bottom, #ffffe6 0%, #ccffee 100%);
     box-shadow: inset 50px 0px 50px -40px white, inset -50px 0px 50px -40px white;
 }
 
 #page5 {
-  height: 1000px;
-  padding-top:50px;
-  /*border: 1px solid black;*/
-  background: linear-gradient(to bottom, #FAEBD7 0%, #ffffff 100%);
-  box-shadow: inset 50px 0px 50px -40px white, inset -50px 0px 50px -40px white;
+    height: 500px;
+    padding-top: 3%;
+    /*border: 1px solid black;*/
+    background: linear-gradient(to bottom, #ccffee 0%, #e7f5fe 100%);
+    box-shadow: inset 50px 0px 50px -40px white, inset -50px 0px 50px -40px white;
 }
 
 
@@ -61,13 +62,25 @@
     text-align: center;
 }
 
+.container img {
+    float: center;
+    width: 500px;
+    height: 100px;
+    background: #555;
+}
+ 
+
+
 .video{
-    padding-top: 300px;
+    padding-top: 10%;
     position: absolute;
-    margin: auto;
+    margin: center;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    display: block;
+    width: 0%;
+    height: 0%;
 }
 
 #map{
@@ -122,21 +135,19 @@ body {
     background-repeat: repeat;
     background-color: #cccccc;
     background-size: 500px;
-    overflow-x: hidden;
+    overflow-x: visible;
 }
              /* Kevin  */
 #menu {
-  text-align: center;
-  
-  width: 100%;
-  background: lightcoral;
-  text-align: center;
-  position: fixed;
-  top: 0px;
-  z-index: 9990;
-  float: left;
-  padding: 10px 0;
-
+    text-align: center;
+    width: 100%;
+    background: #ADD8E6;
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    z-index: 9990;
+    float: left;
+    padding: 10px 0;
 }
 #menu ul {
   list-style-type: none;
