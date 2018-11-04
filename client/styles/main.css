@@ -14,32 +14,37 @@
 /*Styling for each page*/
 #page1 {
     height: 1000px;
-    padding-top:50px;
+    padding-top: 50px;
     border: none;
     /* border: 1px solid black;*/
-    background: linear-gradient(to bottom, white 0%, #ccffee 100%);
+    background: linear-gradient(to bottom, white 0%, #e7f5fe 100%);
     box-shadow: inset 50px 0px 50px -40px white, inset -50px 0px 50px -40px white;
 }
-
+/*Color sequence
+#e7f5fe
+#ccffee
+#ffffe6
+#FAEBD7
+#ffffff*/
 #page2 {
     height: 1000px;
-    padding-top:50px;
+    padding-top: 50px;
     /*border: 1px solid black;*/
-    background: linear-gradient(to bottom, #ccffee 0%, #ffffe6 100%);
+    background: linear-gradient(to bottom, #e7f5fe 0%, #ccffee 100%);
     box-shadow: inset 50px 0px 50px -40px white, inset -50px 0px 50px -40px white;
 }
 #page3 {
     height: 1000px;
-    padding-top:50px;
+    padding-top: 50px;
     /*border: 1px solid black;*/
-    background: linear-gradient(to bottom, #ffffe6 0%, #FAEBD7 100%);
+    background: linear-gradient(to bottom, #ccffee 0%, #ffffe6 100%);
     box-shadow: inset 50px 0px 50px -40px white, inset -50px 0px 50px -40px white;
 }
 #page4 {
     height: 1000px;
-    padding-top:50px;
+    padding-top: 50px;
     /*border: 1px solid black;*/
-    background: linear-gradient(to bottom, #FAEBD7 0%, #ffffff 100%);
+    background: linear-gradient(to bottom, #ffffe6 0%, #FAEBD7 100%);
     box-shadow: inset 50px 0px 50px -40px white, inset -50px 0px 50px -40px white;
 }
 
@@ -51,14 +56,9 @@
   box-shadow: inset 50px 0px 50px -40px white, inset -50px 0px 50px -40px white;
 }
 
-#page5 {
-  height: 1000px;
-  padding-top:50px;
-  /*border: 1px solid black;*/
-  background: linear-gradient(to bottom, #FAEBD7 0%, #ffffff 100%);
-  box-shadow: inset 50px 0px 50px -40px white, inset -50px 0px 50px -40px white;
+#h1 {
+    text-align: center;
 }
-
 
 
 /*
