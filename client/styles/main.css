@@ -76,6 +76,11 @@
     transform: translate(-50%, -50%);
 }
 
+#map{
+  height:100%;
+  margin:0px;
+  padding:0px;
+}
 
 /*
 //Styling for menu bar/
