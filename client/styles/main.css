@@ -59,7 +59,13 @@
   box-shadow: inset 50px 0px 50px -40px white, inset -50px 0px 50px -40px white;
 }
 
-
+.video{
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 /*
 //Styling for menu bar/
