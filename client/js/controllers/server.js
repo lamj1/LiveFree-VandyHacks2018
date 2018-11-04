@@ -37,8 +37,7 @@ function outputJSON(jsonResponse){
         objectArray[i] = singleObject;
     }
     singleObject = objectArray[1];
-    document.getElementById("allEvents").innerHTML = singleObject.name;
-    document.getElementById("allEvents").innerHTML = singleObject.description;
-    
+    document.getElementById("InsertName").innerHTML = singleObject.name;
+    document.getElementById("InsertDescription").innerHTML = singleObject.description;
     
 }
