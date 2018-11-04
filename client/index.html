@@ -79,7 +79,7 @@
 
     <title>Live Free</title>
   </head>
-  <body ng-app="directoryApp">
+  <body>
 
     <div id="menu">
         <ul>
@@ -124,6 +124,25 @@
             <header id="h1">
                 <h1>Events</h1>
             </header>
+            <div class="formcontainer" ng-controller="myForm">
+              <p>
+                <form id="contact" onsubmit="event.preventDefault();" method="post">
+                  <h3>Search for an Event</h3>
+                  <fieldset>
+                    <input placeholder="Your event" ng-model="event" id="userEvent" type="text" tabindex="1" required autofocus>
+                  </fieldset>
+                  <fieldset>
+                    <input placeholder="Your location" type="text" ng-model="location" id="userLocation" tabindex="2" required>
+                  </fieldset>
+                  <fieldset>
+                    <button name="submit" type="submit" onClick="returnJSON();" id="contact-submit" data-submit="...Sending">Submit</button>
+                  </fieldset>
+                </form>
+                <script src="js/controllers/server">
+                  document.write(JSONresponse);
+                </script>
+              </p>
+              </div>
         </div>
 
         <div id="page4" style="text-align:center;">
@@ -190,5 +209,6 @@
         <script src="js/app.js"></script>
         <script src="js/factories/listingFactory.js"></script>
         <script src="js/controllers/listingController.js"></script>
+        <script src="js/controllers/server.js"></script>
 </body>
 </html>
