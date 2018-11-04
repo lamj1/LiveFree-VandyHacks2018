@@ -56,20 +56,20 @@
   box-shadow: inset 50px 0px 50px -40px white, inset -50px 0px 50px -40px white;
 }
 
+
 #h1 {
     text-align: center;
 }
 
-<<<<<<< HEAD
-=======
 .video{
+    padding-top: 300px;
     position: absolute;
     margin: auto;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
->>>>>>> 252f2e1d4960b2102915d4c547c9784256c09a47
+
 
 /*
 //Styling for menu bar/
