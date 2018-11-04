@@ -68,7 +68,7 @@ function results() {
     } else if(anxiety < 12 && anxiety >=8){
 		document.getElementById("anxiety").textContent = "Showing Symptons of Anxiety: Please Talk to Your Doctor if Problems Persist";
 	}else{
-		document.getElementById("anxiety").textContent = "High Chance of Anxiety: Seek Proffessional Help";
+		document.getElementById("anxiety").textContent = "High Chance of Anxiety: Visit the Resources Tab and Talk to a Doctor for Official Help";
 	}
 	
 	//PTSD
@@ -79,33 +79,33 @@ function results() {
     } else if(ptsd < 12 && ptsd >=8){
 		document.getElementById("ptsd").textContent = "Showing Symptons of PTSD: Visit the Resources Tab and Talk to a Doctor for Help";
 	}else{
-		document.getElementById("ptsd").textContent = "Many Signs of PTSD";
+		document.getElementById("ptsd").textContent = "Many Signs of PTSD: Visit the Resources Tab and Talk to a Doctor for an Official Diagnosis";
 	}
 	
 	//Depression
 	if (depression < 4) {
-        document.getElementById("depression").textContent = "Few Signs of Depression";
+        document.getElementById("depression").textContent = "Few to no Signs of Depression";
     } else if(depression < 8 && depression >= 4){
         document.getElementById("depression").textContent = "Showing Symptons of Depression: Visit the Resources Tab and Talk to a Doctor for Help";
     } else if(depression < 12 && depression >=8){
 		document.getElementById("depression").textContent = "Showing Symptons of Depression: Visit the Resources Tab and Talk to a Doctor for Help";
 	}else{
-		document.getElementById("depression").textContent = "Many Signs of Depression: Talk to Family/Friends about seeking help. If Urgent Call the National Suicide Prevention Hotline (1-800-273-8255)";
+		document.getElementById("depression").textContent = "Many Signs of Depression: Talk to Family/Friends about Professional Assistance. If Urgent Call the National Suicide Prevention Hotline (1-800-273-8255)";
 	}
 	
 	//BiPolar
 	if (bipolar < 4) {
-        document.getElementById("bipolar").textContent = "Few to No Signs of Bipolar Disorder";
+        document.getElementById("bipolar").textContent = "Few to no Signs of Bipolar Disorder";
     } else if(bipolar < 8 && bipolar >= 4){
         document.getElementById("bipolar").textContent = "Showing Symptons of Bipolar Disorder";
     } else if(bipolar < 12 && bipolar >=8){
 		document.getElementById("bipolar").textContent = "Showing Symptons of Bipolar Disorder";
 	}else{
-		document.getElementById("bipolar").textContent = "Many Signs of Bipolar Disorder: Talk to a Doctor and Visit the Resources Tab for More Information";
+		document.getElementById("bipolar").textContent = "Many Signs of Bipolar Disorder: Visit the Resources Tab and Talk to a Doctor for an Official Diagnosis";
 	}
 	
 	if (substance < 4) {
-        document.getElementById("substance").textContent = "Low Chance of Substance Abuse: Visit the Resources Tab to Find a Professional";
+        document.getElementById("substance").textContent = "Low Chance of Substance Abuse";
     } else if(substance < 12 && substance >= 4){
         document.getElementById("substance").textContent = "Showing Symptons of Substance Abuse: Visit the Resources Tab to Find a Professional";
     } else if(substance < 18 && substance >=12){

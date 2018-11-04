@@ -169,6 +169,53 @@ html {
     padding: right;
 }
 
+.btn-main{
+  font-family:inherit;
+  font-size:0.875rem;
+  font-weight:400;
+  text-decoration:none;
+  cursor:pointer;
+  display:inline-block;
+  line-height:0.875rem;
+  padding:0.75rem 0.75rem;
+  margin:0;
+  height:auto;
+  border:1px solid transparent;
+  vertical-align:middle;
+  -webkit-appearance:none;
+  color:inherit;
+  background-color:transparent;
+}
+
+.btn-large-main{
+  font-style: bold;
+  min-width:11.5625rem;
+  border-radius:1.375rem;
+  font-size:1rem;
+  line-height:1.25rem;
+}
+
+.btn-blue{
+  background:rgb(35, 80, 186);
+  color:#FFF;
+}
+
+
+.btn-blue:hover{
+  background:rgb(87, 134, 199);
+  color:#FFF;
+}
+
+
+.btn-blue:active,
+.btn-blue:focus{
+  background:#8eb2dd;
+  box-shadow:none;
+  color:#FFF;
+}
+
+
+
 
 .video{
     padding-top: 8%;
