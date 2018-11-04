@@ -99,28 +99,23 @@
             <img src="styles\vandyfont.png" alt="logo" /></img>
         </div>
 
-        <<div id="page1">
+        <div id="page1">
             <!-- <a id="info" class="smooth"></a>
     Information page content goes here.-->
-            <header id="h1" style="font-family: Georgia">
+            <header id="h1">
                 <h1>Information</h1>
             </header>
             <p style="font-size: 18px;margin-left:200px;margin-right:400px;font-family: Georgia;">
                 Welcome to Live Free! A site dedicated to mental health awareness, prevention and assistance. We at Live Free want to spread knowledge about mental health but also provide everyday habits to provide a better mental well being. If you or someone you know is struggling don't be afraid to get help! Click on the Resources Tab for assistance.
             </p>
-            <p style="font-size: 18px;margin-left:315px;margin-right:400px;font-family: Georgia;margin-top: 20px;margin-bottom:0;">
-                Take the free assessment to see if you might be
-            </p>
-            <p style="font-size: 18px;margin-left:330px;margin-right:400px;font-family: Georgia;margin-top:0;margin-bottom:0">
-                struggling with a mental illness. This is just an
-            </p>
-            <p style="font-size: 18px;margin-left:340px;margin-right:400px;font-family: Georgia;margin-top:0;margin-bottom:0;">
-                online assessment and not a diagnosis. Please see
+            <p style="font-size: 18px;margin-left:400px;margin-right:200px;font-family: Georgia;margin-top: 100px;">
+                If it is an emergency please call the National Suicide Hotline. Take the free assessment to see if you might be struggling with a mental illness. This is just an online
+                assessment and not a diagnosis. Please see a professional if for an actual diagnosis.
             </p>
             <p style="font-size: 18px;margin-left:350px;margin-right:400px;font-family: Georgia;margin-top:0">
                 a professional if for an actual diagnosis.
             </p>
-            <p style="font-style: italic;font-size: 18px;margin-left:350px;margin-right:50px;font-family: Georgia;margin-top: 50px;">
+            <p style="font-style: italic;font-size: 18px;margin-left:350px;margin-right:50px;font-family: Georgia;margin-top: 30px;">
                 If it is an emergency please call the National Suicide Prevention Hotline (1-800-273-8255).
             </p>
             <!--<div class="video">
@@ -130,9 +125,12 @@
 
 
             <div class="video">
-                <iframe width="320" height="200" src="https://www.youtube.com/embed/nCrjevx3-Js" frameborder="0" allow="autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="320" height="200" src="https://www.youtube.com/embed/nCrjevx3-Js" frameborder="0" allow="autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
             </div>
-        </div>
+               
+
+        
 
         <div id="page2">
             <!--<a id="assessment" class="smooth"></a>
@@ -142,7 +140,7 @@
             </header>
             <p style="font-size: 18px;margin-left:100px;margin-right:100px;font-family: Georgia;">Take this assessment to check your mental health standing. This is just an assessment for an actual diagnosis please see a doctor.</p>
             <div style="text-align:center">
-                <button type="button" class="btn-main btn-blue btn-large inline btn-next" onclick="location.href='quiz.html'">Take Quiz</button>                    
+                <button type="button" class="btn btn-green btn-large inline btn-next" onclick="location.href='quiz.html'">Take Quiz</button>                    
             </div>
         </div>
 
@@ -154,7 +152,7 @@
             </header>
             <div class="formcontainer" ng-controller="myForm">
               <p>
-                <form id="contact" onsubmit="event.preventDefault();" method="post">
+                <form id="contact" onsubmit="event.preventDefault();" method="post" style=">
                   <h3>Search for an Event</h3>
                   <fieldset>
                     <input placeholder="Your Event Name" ng-model="event" id="userEvent" type="text" tabindex="1" required autofocus>
@@ -166,8 +164,17 @@
                     <button name="submit" type="submit" onClick="returnJSON();" id="contact-submit" data-submit="...Sending">Submit</button>
                   </fieldset>
                 </form>
-                <div id = "allEvents">
-                </div>
+                <p id = "allEvents" style = 
+                "background-color: white;
+                width: 400px;
+                height: 2000 px;
+                border: 5px solid beige;
+                padding: 25px;
+                margin-left:75%;
+                margin-right:-75%;
+                padding: right">
+                 
+                </p>
               </p>
               </div>
         </div>
@@ -232,7 +239,7 @@
                 </div>
             </div>
 
-            <div id="p5info" style="text-align:left;margin-left:60%; margin-top: 50px;font-size: 18px;">
+            <div id=" " p5info" style="text-align:left;margin-left:60%; margin-top: 50px;font-size: 18px;">
                 <p>If in Need of <b>IMMEDIATE</b> Assistance Call The National Suicide Hotline</p>
                 <p>Call <b>1-800-273-8255</b></p>
             </div>
