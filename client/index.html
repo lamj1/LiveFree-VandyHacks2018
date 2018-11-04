@@ -155,7 +155,7 @@
             <header id="h1">
                 <h1>Events</h1>
             </header>
-            <div class="formcontainer" ng-controller="myForm">
+            <div class="formcontainer">
               <p>
                 <form id="contact" onsubmit="event.preventDefault();" method="post">
                   <h3>Search for an Event</h3>
@@ -169,18 +169,13 @@
                     <button name="submit" type="submit" onClick="returnJSON();" id="contact-submit" data-submit="...Sending">Submit</button>
                   </fieldset>
                 </form>
-                <p id = "allEvents" style = 
-                "background-color: white;
-                width: 400px;
-                height: 2000 px;
-                border: 5px solid beige;
-                padding: 25px;
-                margin-left:75%;
-                margin-right:-75%;
-                padding: right">
-                 
-                </p>
               </p>
+              <div id = "allEvents">
+                <p id="Name">Name</p>
+                <p id="InsertName"></p>
+                <p id="Description">Description</p>
+                <p id="InsertDescription"></p>
+                </div>
               </div>
         </div>
 
@@ -260,5 +255,6 @@
         <script src="js/app.js"></script>
         <script src="js/factories/listingFactory.js"></script>
         <script src="js/controllers/listingController.js"></script>
+        <script src="js/controllers/server.js"></script>
 </body>
 </html>

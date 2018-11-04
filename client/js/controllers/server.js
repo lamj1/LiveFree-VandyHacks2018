@@ -32,11 +32,13 @@ function outputJSON(jsonResponse){
         object = jsonResponse.events[i];
         name = object.name.text;
         description = object.description.text;
-        logo = object.logo.url;
-        singleObject = {name:name, description:description, url: logo};
+        //logo = object.logo.url;
+        singleObject = {name:name, description:description};
         objectArray[i] = singleObject;
     }
-    document.getElementById("allEvents").innerHTML = objectArray[1].name;
-    document.getElementById("allEvents").innerHTML = objectArray[1].description;
+    singleObject = objectArray[1];
+    document.getElementById("allEvents").innerHTML = singleObject.name;
+    document.getElementById("allEvents").innerHTML = singleObject.description;
+    
     
 }
