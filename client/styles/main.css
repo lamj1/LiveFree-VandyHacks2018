@@ -36,15 +36,23 @@ html {
     height: 500px;
     padding-top: 3%;
     /*border: 1px solid black;*/
-    background: linear-gradient(to bottom, #e7f5fe 0%, #eafaea 100%);
-    box-shadow: inset 50px 0px 50px -40px white, inset -50px 0px 50px -40px white;
+    background-image: url("p2.gif");
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-size: 1250px;
 }
 #page3 {
     height: 500px;
     padding-top: 3%;
     /*border: 1px solid black;*/
-    background: linear-gradient(to bottom, #eafaea 0%, #ffffe6 100%);
-    box-shadow: inset 50px 0px 50px -40px white, inset -50px 0px 50px -40px white;
+    background-image: url("p3.gif");
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-size: 1250px;
 }
 #page4 { /* health*/
     height: 500px;
@@ -72,11 +80,19 @@ html {
     height: 500px;
     padding-top: 3%;
     /*border: 1px solid black;*/
-    background: linear-gradient(to bottom, #eafaea 0%, #e7f5fe 100%);
-
-    box-shadow: inset 50px 0px 50px -40px white, inset -50px 0px 50px -40px white;
+    background-image: url("p5.gif");
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-size: 1250px;
 }
-
+#p5info{
+    float:right;
+}
+#map{
+    float:left;
+}
 
 #h1 {
     text-align: center;
