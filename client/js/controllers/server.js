@@ -25,11 +25,18 @@ function outputJSON(jsonResponse){
     var name;
     var description;
     var logo;
-    var singleObject = {name: {text: string}, description: {text: string}, logo: {original: {url: string}} }
+    var singleObject = {};
+    var objectArray = [];
+    var string = "";
     for (var i = 0; i < jsonResponse.events.length; i++){
         object = jsonResponse.events[i];
         name = object.name.text;
         description = object.description.text;
-        logo = object.logo.original.url;
+        logo = object.logo.url;
+        singleObject = {name:name, description:description, url: logo};
+        objectArray[i] = singleObject;
     }
+    document.getElementById("allEvents").innerHTML = objectArray[1].name;
+    document.getElementById("allEvents").innerHTML = objectArray[1].description;
+    
 }
