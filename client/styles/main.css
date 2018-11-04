@@ -13,11 +13,14 @@ html {
 */
 
 /*Styling for each page*/
+#page0 {
+  padding-top: 0%;
+}
 #page1 { /*Information*/
     height: 500px;
     padding-top: 3%;
     border: none;
-    /* border: 1px solid black;*/
+    /* border: 1px solid black;*/ 
     background-image: url("info.gif");
     background-repeat: no-repeat;
     border-radius: 25px;

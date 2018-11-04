@@ -257,3 +257,32 @@ body {
   .px4{ padding-left:3rem; padding-right:3rem }
 
 
+#menu {
+    text-align: center;
+    width: 100%;
+    background: #ADD8E6;
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    z-index: 9990;
+    float: left;
+    padding: 5px 0;
+}
+#menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+#menu ul li {
+  display: inline;
+  padding: 0 30px 0 0;
+}
+#menu ul li a {
+  font-size: 1.6em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff !important;
+  text-decoration: none;
+  vertical-align: center !important;
+}
