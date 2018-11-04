@@ -99,7 +99,15 @@ html {
     left: 50%;
     transform: translate(-50%, -50%);
     display: block;
+<<<<<<< HEAD
     width: 10%;
+=======
+}
+
+iframe {
+  max-width:  100% !important;
+  max-height: 100% !important;
+>>>>>>> 7d8437a11ccb1bbdc214e1901b47581751085c9c
 }
 
 #map{
