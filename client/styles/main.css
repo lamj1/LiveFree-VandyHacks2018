@@ -60,8 +60,6 @@
     text-align: center;
 }
 
-<<<<<<< HEAD
-=======
 .video{
     position: absolute;
     margin: auto;
@@ -69,7 +67,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
->>>>>>> 252f2e1d4960b2102915d4c547c9784256c09a47
 
 /*
 //Styling for menu bar/
