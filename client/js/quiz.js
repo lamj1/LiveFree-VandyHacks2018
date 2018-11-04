@@ -105,15 +105,6 @@ function results() {
 	}
 	
 	if (substance < 4) {
-<<<<<<< HEAD
-        document.getElementById("substance").textContent = "Low Chance of Substance Abuse";
-    } else if(substance < 8 && substance >= 4){
-        document.getElementById("substance").textContent = "Showing Symptons of Substance Abuse";
-    } else if(substance < 12 && substance >=8){
-		document.getElementById("substance").textContent = "Showing Symptons of Substance Abuse";
-	}else{
-		document.getElementById("substance").textContent = "High Chance of Substance Abuse";
-=======
         document.getElementById("substance").textContent = "Low Chance of Substance Abuse: Visit the Resources Tab to Find a Professional";
     } else if(substance < 12 && substance >= 4){
         document.getElementById("substance").textContent = "Showing Symptons of Substance Abuse: Visit the Resources Tab to Find a Professional";
@@ -121,6 +112,5 @@ function results() {
 		document.getElementById("substance").textContent = "Showing Moderate Amount of Symptons of Substance Abuse: Visit the Resources Tab to Find a Professional";
 	}else{
 		document.getElementById("substance").textContent = "Many Symptoms of Substance Abuse: Please Reachout to a Trusted Person for Help. Visit the Resources Tab if in Need";
->>>>>>> a2a47ee7945ac4205fdf547ebcc698ad41e92e3e
 	}
 }
