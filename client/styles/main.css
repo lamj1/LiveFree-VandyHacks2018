@@ -108,6 +108,55 @@ html {
     background: #555;
 }
  
+.btn-main{
+  font-family:inherit;
+  font-size:0.875rem;
+  font-weight:400;
+  text-decoration:none;
+  cursor:pointer;
+  display:inline-block;
+  line-height:0.875rem;
+  padding:0.75rem 0.75rem;
+  margin:0;
+  height:auto;
+  border:1px solid transparent;
+  vertical-align:middle;
+  -webkit-appearance:none;
+  color:inherit;
+  background-color:transparent;
+}
+
+
+.btn-blue{
+  background:rgb(78, 131, 177);
+  color:#FFF;
+}
+
+
+.btn-blue:hover{
+  background:rgb(53, 160, 172);
+  color:#FFF;
+}
+
+
+.btn-blue:active,
+.btn-blue:focus{
+  background:#5bb8cc;
+  box-shadow:none;
+  color:#FFF;
+}
+
+
+
+.btn-large{
+  font-style: bold;
+  min-width:11.5625rem;
+  border-radius:1.375rem;
+  font-size:1rem;
+  line-height:1.25rem;
+}
+
+
 
 
 .video{
