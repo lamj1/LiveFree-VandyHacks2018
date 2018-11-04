@@ -5,66 +5,87 @@
     <link rel="stylesheet" href="styles/main.css">
     <title>Live Free</title>
   </head>
-  <body>
-    <div class="menu">
+  <body ng-app="directoryApp">
+
+    <div id="menu">
         <ul>
-            <li><a href="#page1">Information</a></li>
-            <li><a href="#page2">Assessment</a></li>
-            <li><a href="#page3">Events</a></li>
-            <li><a href="#page4">Resources</a></li>
-          </ul>
+          <li><a href="#page1">Information</a></li>
+          <li><a href="#page2">Assessment</a></li>
+          <li><a href="#page3">Events</a></li>
+          <li><a href="#page4">Healthy Habits</a></li>
+          <li><a href="#page5">Resources</a></li>
+        </ul>
     </div>
-
-    <div class="container">
-      <div style="padding:20px;margin-top:30px">
-        <h1>Mental Break</h1>
-      </div>
-      <div id="page1">
-        <a id="info" class="smooth"></a>
-        <div style="text-align:center;">
-          <p>If in Need of IMMEDIATE Assistance Call the National Suicide Hotline</p>
-          <p>Call <b>1-800-273-8255</b></p>
-        </div>    
-        <hr>
-      </div>
-      
-      <div id="page2">
-        <a id="assessment" class="smooth"></a>
-          Assessment page content goes here.
-      </div>
-      
-      <div id="page3">
-        <a id="events" class="smooth"></a>
-          Events page content goes here.
-      </div>
-
-      <div id="page4">
-        <a id="resources" class="smooth"></a>
-          Resources page content goes here
-      </div>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
-    <script>
-    $('.smooth').on('click', function() {
-        $.smoothScroll({
-            scrollElement: $('body'),
-            scrollTarget: '#' + this.id
-        });
-        
-        return false;
-    });
-    </script>
     
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
-    <link href="http://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet"/>
-    <div id="toast"></div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
-    <script src="https://code.angularjs.org/1.4.3/angular.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/factories/listingFactory.js"></script>
-    <script src="js/controllers/listingController.js"></script>
-  </body>
+    <div class="container">
+        <div style="padding:20px;margin-top:30px">
+
+        <h1 class="title">Live Free</h1>
+       </div>
+        <div id="page1">
+           <!-- <a id="info" class="smooth"></a>
+            Information page content goes here.-->
+            <header id="h1">
+                <h1>Information</h1>
+            </header>
+              <a id="info" class="smooth"></a>
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/G0zJGDokyWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+            
+        <div id="page2">
+            <!--<a id="assessment" class="smooth"></a>
+            Assessment page content goes here.-->
+            <header id="h1">
+                <h1>Assesment</h1>
+            </header>
+        </div>
+            
+        <div id="page3">
+            <!--  <a id="events" class="smooth"></a>
+             Events page content goes here.-->
+            <header id="h1">
+                <h1>Events</h1>
+            </header>
+        </div>
+
+        <div id="page4">
+            <!-- <a id="healthy habits" class="smooth"></a>
+                Healthy habits page content goes here-->
+            <header id="h1">
+                <h1>Healthy Habits</h1>
+            </header>
+        </div>
+
+        <div id="page5">
+            <!--<a id="resources" class="smooth"></a>
+             Resources page content goes here-->
+            <header id="h1">
+                <h1>Resources</h1>
+            </header>
+        </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+        <!--<script>
+            $('.smooth').on('click', function () {
+                $.smoothScroll({
+                    scrollElement: $('body'),
+                    scrollTarget: '#' + this.id
+                });
+
+                return false;
+            });
+        </script>-->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+        <script src="https://code.angularjs.org/1.4.3/angular.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/factories/listingFactory.js"></script>
+        <script src="js/controllers/listingController.js"></script>
+</body>
 </html>
