@@ -171,11 +171,11 @@ html {
 
 
 .video{
-    padding-top: 20%;
+    padding-top: 8%;
     position: absolute;
     margin-left: 250px;
     top: 50%;
-    left: 50%;
+    left: 51%;
     transform: translate(-50%, -50%);
     display: block;
     width: 10%;
