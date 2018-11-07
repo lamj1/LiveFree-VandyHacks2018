@@ -69,7 +69,7 @@ module.exports.init = function() {
 
   /**TODO 
   Use the listings router for requests to the api */
-  app.use('/events/search', eventsRouter);
+  app.use('/events/search', listingsRouter);
 
   /**TODO 
   Go to homepage for all routes not specified */ 
